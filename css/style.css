@@ -59,6 +59,7 @@ button::-moz-focus-inner {
 a,
 a:visited {
   text-decoration: none;
+  color: black;
 }
 
 a:hover {
@@ -93,6 +94,35 @@ header .header-container {
   width: 100%;
   margin: 0 auto;
   padding: 69px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .header-container .menu {
+  max-width: 564px;
+  width: 100%;
+}
+header .header-container .menu ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .header-container .menu ul a {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  color: #274C5B;
+}
+header .header-container .search-bar .search-input {
+  width: 376px;
+  height: 66px;
+  border-radius: 36px;
+  background: #FAFAFA;
+}
+header .header-container .cart-btn {
+  border-radius: 33px;
+  border: 1px solid #E0E0E0;
 }
 
 body {
